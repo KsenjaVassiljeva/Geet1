@@ -1,0 +1,236 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css" integrity="sha384-xOolHFLEh07PJGoPkLv1IbcEPTNtaed2xpHsD9ESMhqIYd0nLMwNLD69Npy4HI+N" crossorigin="anonymous">
+
+    <title>Bootstrap4</title>
+</head>
+<body>
+     <h3>Валидации формы</h3>
+     <div class="container">
+        <div class="col-12">
+            <div class="row">
+                <form class="myForm" novalidate>
+                    <div class="form-group row">
+                        <label class="col-3" for="exampleInputEmai11">Email</label>
+                        <input type="email" class="form-control col-9" id="exampleInputEmai11" aria-activedescendant="emailHelp" placeholder="Ematl adress" required>
+                        <div class="valid-feedback">
+                            efefeefeeffe
+                        </div>
+                        <div class="invalid-feedback">
+                            ffdfddd
+                        </div>
+                        <div class="form-group row">
+                            <label class="col-3" for="examplelnputPassword1">parol</label>
+                            <input type="password" class="form-control col-9" id="examplelnputPassword1" placeholder="parol" required>
+                            <div class="valid-feedback">
+                                ooofkfkfof
+                            </div>
+                        </div>
+                        <div class="valid-feedback">
+                            dfsdsdsdsddfsdfsdfddsfddssdfsfsdfsdfd
+                        </div>
+                    </div>
+                    <div class="form-group row">
+                        <label class="col-3" for="exampleForaControlSelect1">example</label>
+                        <select class="form-control" id="exampleFormControlSelect1" required>
+                            <option>1</option>
+                            <option>2</option>
+                            <option>3</option>
+                            <option>4</option>
+                            <option>5</option>
+                        </select>
+                    </div>
+                    <div class="form-row">
+                        <div class="custom-control custom-ckeckbox">
+                            <input type="checkbox" class="custom-control-input" required id="custom1"> <label for="custom1" class="custom-control-label">Выберите меня</label> <div class="invalid-tooltip">то обязательно выбрать</div>
+                        </div>
+                        <div class="custom-control custom-radio">
+                            <input type="radio" name="customform" class="custom-control-input" required id="custom2">
+                            <label for="custom2" class="custom-control-label">Выберите меня</label>
+                            <div class="invalid-tooltip">зто обязательно выбрать</div>
+                        </div>
+                        <div class="custom-control custom-radio">
+                            <input type="radio" name="customform" class="custom-control-input" required id="custom3">
+                            <label for="custom3" class="custom-control-label">Выберите меHя</label>
+                            <div class="invalid-tooltip">то обязательно выбраtь</div> </div>
+                        </div>
+                        <button type="submit" class="btn btn-primary">Submit</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+        <h3>Карусель</h3>
+        <div class="container">
+            <div class="row">
+                <div class="col-7">
+                    <div id="carouselMy" class="carousel my-carousel slide" data-ride="carousel">
+                        <div class="carousel-inner">
+                            <div class="carousel-item active">
+                                <img class="d-block w-100" src="img/rys.jpg">
+                                <div class="carousel-caption">
+                                    <h6>Slide 1</h6>
+                                    <p>Lorem ipsum dolor sit.</p>
+                                </div>
+                            </div>
+                            <div class="carousel-item">
+                                <img class="d-block w-100" src="img/1.jpg">
+                                <div class="carousel-caption">
+                                    <h6>Slide 2</h6>
+                                    <p>Lorem ipsum dolor sit.</p>
+                                </div>
+                            </div>
+                            <div class="carousel-item">
+                                <img class="d-block w-100" src="img/1.jpg">
+                                <div class="carousel-caption">
+                                    <h6>Slide 3</h6>
+                                    <p>Lorem ipsum dolor sit.</p>
+                                </div>
+                            </div>
+                        </div>
+                        <a class="carousel-control-prev" href="#carouselMy" data-slide="prev">
+                            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                        </a>
+                        <a class="carousel-control-next" href="#carouselMy" data-slide-"next">
+                            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                        </a>
+                        <ol class="carousel-indicators">
+                            <li data-target="#carouselMy" data-slide-to-"0" class="active">
+                            </li>
+                            <li data-target="#carouselMy" data-slide-to-"1"></li>
+                            <li data-target="#carouselMy" data-slide-to="2"></li> </ol>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <h3>Konлanc</h3>
+            <div class="container">
+                <div class="row">
+                    <div class="col-12">
+                        <p>
+                            <button class="btn btn-primary" type="button" data-target="#collapseExample1" data-toggle="collapse" aria-controls="collapseExample1">1</button>
+                            <button class="btn btn-primary" type="button" data-target="#collapseExample2" data-toggle="collapse" aria-controls="collapseExample2">2</button>
+                            <button class="btn btn-primary" type="button" data-target=".collaple" data-toggle="collapse" aria-controls-"collapseExamplel collapseExample2">1,2</button>
+                            <div class="row">
+
+                            </p>
+                            <div class="col">
+                                <div class="collaple" id="collapseExample1">
+                                    Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident.
+                                </div>
+                            </div>
+                            <div class="col">
+                                <div class="collaple" id="collapseExample2">
+                                    Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident.
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+            <h3>Акордеон </h3> <div class="container">
+                <div class="row">
+                    <div class="col-12">
+                        <div id="accordion">
+                            <div class="card">
+                                <div class="card-header" id="headingOne">
+                                    <h5>
+                                        <button class="btn btn-link" data-toggle="collapse" data-target="#collapseOne" aria-expanded="true" aria-controls=" collapseOne">Heading 1</button></h5>
+                                    </div>
+                                    <div class="collapse show" id="collapseOne" aria-labelledby-"headingOne" data-parent-"#accordion"> <div class="card-body">
+                                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Officiis ex harum repellendus quis a rerum numquam fuga, beatae sint, repellat omnis placeat possimus incidunt, optio consectetur perspiciatis adipisci, libero velit.</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="card">
+                                <div class="card-header" id="headingTwo">
+                                    <h5>
+                                        <button class="btn btn-link collapsed" data-toggle="collapse" data-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">Heading 2</button>
+                                    </h5>
+                                </div>
+                                <div class="collapse" id="collapseTwo" aria-labelledby="headingTwo" data-parent="#accordion"> <div class="card-body">
+                                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Alias accusantium aperiam repudiandae delectus, ea non quos. Labore perferendis neque totam doloribus, nisi amet facilis distinctio laborum modi, optio, asperiores quos!</p> </div>
+                                </div>
+                            </div>
+                            <div class="card">
+                                <div class="card-header" id-"headingThree">
+                                    <h5>
+
+                                    </h5>
+                                </div>
+                                <button class="btn btn-link collapsed" data-toggle="collapse" data-target="#collapseThree" aria-expanded="false" aria-controls-"collapse Three">Heading 3</button>
+                                <div class="collapse" id="collapse Three" aria-labelledby-"headingThree" data-parent-"#accordion"> <div class="card-body">
+                                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Deserunt fugit facilis vel quas praesentium adipisci vero dolor magnam nostrum tenetur nam, eaque officiis ratione eligendi harum fugiat voluptatem minima et?</p>
+                                </div>
+                                <3>Лист групп</h3>
+                                    <div class="container">
+
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="row">
+                        <div class="col-4">
+                            <div class="list-group" id="list-tab" role="tablist">
+                                <a class="list-group-item list-group-item-success active" id="list-home-list" data-toggle="list" href="#list-home">Home</a>
+                                <span class="badge badge-primary">25</span>
+                                <a class="list-group-item list-group-item-success" id="list-profile-list" data-toggle="list" href="#list-profile">Profile
+                                </a>
+                                <span class="badge badge-primary">25</span>
+                                <a class="list-group-item list-group-item-success" id="list-messages-list" data-toggle="list" href="#1Messagesf=" #list-messages></a>
+                                <span class="badge badge-primary">25</span>
+                                <a class="list-group-item list-group-item-success" id="list-settings-list" data-toggle="list" href="#list-settings"></a>
+                            </div>
+                        </div>
+Settings
+<span class="badge badge-primary">25</span>
+<div class="col-8">
+<div class="tab-content" id="nav-tabContent">
+<div class="tab-pane fade show active" id="list-home" aria-labelledby="list-home-list">
+Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quo consequuntur fugit, repellat. Et, voluptates, error. Repudiandae doloremque aliquam aspernatur nam.
+</div>
+<div class="tab-pane fade" id="list-profile" aria-labelledby="list-profile-list">
+Lorem ipsum dolor sit amet, consectetur adipisicing elit. Reiciendis cumque amet soluta, expedita adipisci exercitationem, aspernatur sapiente. Eum, iusto, rem.
+</div>
+<div class="tab-pane fade" id="list-messages" aria-labelledby="list-messages-list">
+Lorem ipsum dolor sit amet, consectetur adipisicing elit. Saepe porro veniam rem excepturi autem inventore nobis ipsum labore libero praesentium.
+</div>
+<div class="tab-pane fade" id="list-settings" aria-labelledby="list-settings-list">
+Lorem ipsum dolor sit amet, consectetur adipisicing elit. Omnis unde, incidunt voluptate est cum sunt autem nisi quod laudantium repellat.
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+<h3>Модальное окно</h3>
+<div class="container">
+<div class="row">
+<button type="button" class="btn btn-primary" data-toggle="modal" data-target="#Modal"> Launch demo modal
+</button>
+<div class="modal fade" id="Modal">
+<div class="modal-dialog">
+<div class="modal-content">
+
+
+
+
+
+    <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-Fy6S3B9q64WdZWQUiU+q4/2Lc9npb8tCaSX9FK7E8HnRr0Jz8D6OP9dO5Vg3Q9ct" crossorigin="anonymous"></script>
+
+    <!-- Option 2: Separate Popper and Bootstrap JS -->
+    <!--
+    <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/js/bootstrap.min.js" integrity="sha384-+sLIOodYLS7CIrQpBjl+C7nPvqq+FbNUBDunl/OZv93DB7Ln/533i8e/mZXLi/P+" crossorigin="anonymous"></script>
+    -->
+  </body>
+</html>
